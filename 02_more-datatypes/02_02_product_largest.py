@@ -6,5 +6,16 @@
 # Calculate the product of all of the numbers in the list.
 
 from resources import randlist
+print("Number list:", randlist)
 
-print(randlist)
+# Find the longest number
+longer = max(randlist)
+print("The largest number is:", longer)
+
+# Calculate the product
+product = 1
+for num in randlist:
+    product *= num
+
+# Print result
+print("The product of all the numbers is:", product)
