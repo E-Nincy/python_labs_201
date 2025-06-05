@@ -9,8 +9,8 @@ from resources import randlist
 print("Number list:", randlist)
 
 # Find the longest number
-longer = max(randlist)
-print("The largest number is:", longer)
+largest = max(randlist)
+print("The largest number is:", largest)
 
 # Calculate the product
 product = 1
