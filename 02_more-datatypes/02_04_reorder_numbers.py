@@ -6,3 +6,12 @@
 #
 # Example input:  1,2,3,4,5,6,7,8,9,10
 # Example output: 2,4,6,8,10,9,7,5,3,1
+
+# 10 numbers in one line separated by comas
+numbers = list(map(int, input("Enter a 10 numbers separated by commas: ").split(',')))
+
+# Print 2nd, 4th, 6th, 8th, 10th numbers
+print(numbers[1], numbers[3], numbers[5], numbers[7], numbers[9], sep=",")
+
+# Print the 9th, 7th, 5th, 3rd, 1st number
+print(numbers[8], numbers[6], numbers[4], numbers[2], numbers[0], sep=",")
