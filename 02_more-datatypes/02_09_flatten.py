@@ -10,3 +10,6 @@
 # to flatten a list of any depth. Can you understand the code used?
 
 starter_list = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
+flattened_list = [item for sublist in starter_list for item in sublist]
+print(flattened_list)           # Output → [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
