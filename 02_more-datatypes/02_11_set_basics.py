@@ -4,3 +4,9 @@
 
 s = {1, 2, 3, 4}
 t = {3, 4, 5, 6}
+
+# Create a intersection of both sets
+print(s.intersection(t))
+
+# Create a union of both sets
+print(s.union(t))
