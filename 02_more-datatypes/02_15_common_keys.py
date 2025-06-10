@@ -9,3 +9,15 @@
 
 dict_1 = {"a": 1, "b": 2, "c": 3}
 dict_2 = {"a": 2, "c": 4 , "d": 2}
+results = {}
+
+for k, l in dict_1.items():
+    results[k] = l
+
+for k, l in dict_2.items():
+    if k in results:
+        results[k] += l
+    else: 
+        results[k] = l
+        
+print(results)
