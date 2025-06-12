@@ -3,8 +3,6 @@
 
 from pathlib import Path
 
-from pathlib import Path
-
 words = Path("C:/Users/escot/OneDrive/Escritorio/Codingnomads/python-201-main/03_file-input-output/words.txt")
 reverse_words = Path("C:/Users/escot/OneDrive/Escritorio/Codingnomads/python-201-main/03_file-input-output/words_reverse.txt")
 
